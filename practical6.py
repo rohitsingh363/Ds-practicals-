@@ -31,6 +31,7 @@ class Sorting:
             lst[j + 1] = index 
         return lst
     
+   
     def run_sort(self):
         while True:
             print('Select the sorting algorithm:')
