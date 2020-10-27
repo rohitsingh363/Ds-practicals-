@@ -8,6 +8,7 @@ result = [[0,0,0],[0,0,0],[0,0,0]]
 ch = int(input("Enter your choice:"))
 if ch == 1:
     for i in range(len(x)):
+      
         for j in range(len(y[0])):
             result[i][j] = x[i][j] + y[i][j]
     for r in result:
